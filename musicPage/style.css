@@ -123,15 +123,23 @@ body{
   }
 
   .container iframe{
-    width: 70px;
-
+    width: 40%;
+    height: auto;
+    padding-right: 10px;
+  }
+  .container{
+    width: 80%;
+    display: block;
+    height: 10vh;
   }
 }
   @media screen and (min-width: 799px) {
     .nav-list {
       display: block !important;
     }
+    
   }
+
   #nav-toggle {
     position: absolute;
     left: 18px;
@@ -174,13 +182,19 @@ body{
   .container, .marvrix-container{
     display: flex;
     margin: 30px 30px;
-
+    justify-content: space-between;
+    width: 90%;
+    height: auto;
   }
   .video-text, .marvrix-tv > p{
     font-size: 25px;
     text-align: center;
     font-family: 'Montserrat';
     font-weight: 500;
+  }
+
+  .video-text{
+    margin-top: 50px;
   }
   .second-container{
     width: 70%;
@@ -192,13 +206,22 @@ body{
   }
 
   .second-container iframe{
-    width: 45%;
+    width: 49%;
     height: 30vh;
   }
   .container iframe, .marvrix-container iframe {
-    width: 700px;
-    height: 450px;
+    width: 50%;
+    height: 40vh;
     margin: 0 auto;
+  }
+
+  .container{
+    margin: 0 auto;
+    margin-bottom: 15px;
+    margin-top: 30px;
+  }
+  .container iframe:nth-of-type(1){
+    padding-right: 10px;
   }
 
   footer{
