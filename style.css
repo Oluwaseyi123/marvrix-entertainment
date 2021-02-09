@@ -230,8 +230,8 @@ nav ul li ul li a {
     background: #ffffff;
     position: relative;
     
-    width: auto;
-    margin: 0 15px 95px 0;
+    width: 300px;
+    margin: 0 auto;
     
 }
 .event p{
@@ -252,8 +252,8 @@ nav ul li ul li a {
 .event button{
     cursor: pointer;
     display: block;
-    width: 100px;
-    height: 30px;
+    /* width: 100px;
+    height: 30px; */
     background: #232220;
     color: #ffffff;
     border: none;
@@ -261,6 +261,7 @@ nav ul li ul li a {
     text-align: center;
     margin: 10px auto 20px auto;
     z-index: 1;
+    padding: 10px;
     
 }
 .event button:focus{
@@ -268,8 +269,10 @@ nav ul li ul li a {
 }
 .events{
     display: flex;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
+    padding-bottom: 50px;
+    align-items: center;
 }
 .date{
     padding-bottom: 10px;
@@ -279,44 +282,23 @@ nav ul li ul li a {
     margin: 0 auto;
     
 }
-.entertainment-news{
-    margin-bottom: 5rem;
-}
-.news{
-    display: flex;
-    height: 450px;
-    margin-bottom: 15px;
-}
-
-.news img{
-    height: 450px;
-    width: 100%;
-}
-
-.news > p{
-    background: #f5f5f5;
-    padding: 10% 50px 0px 30px;
-    text-align: left;
-    width: 100%;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.address > i{
-   font-size: 34px;
-}
 
 .contact-location{
     display: flex;
-    width: 50%;
+    width: 22em;
+    height: 30em;
+    /* width: 300px; */
+    align-items: center;
     margin: 20px auto;
 }
 
 .contact{
-    width: 100%;
-    height: auto;
+    /* width: 100%; */
+
+    height: 25rem;
     background: #f5f5f5;
-    margin-bottom: 30px;
-    padding-bottom: 40px;
+    margin: 0 auto;
+    padding: 30px;
 }
 
 .contact > p{
@@ -338,18 +320,23 @@ nav ul li ul li a {
 
 .address{
     display: flex;
-    margin:0 20px 20px 19% ;
+    margin:0 20px 20px 20px ;
 }
 
 .address > p{
-    margin-left: 10px;
+    /* width: 200px; */
+    /* margin-left: 10px; */
+    margin: 0 auto;
     justify-items: center;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
 }
-
+.address a{
+  width: 100px;
+  color: black;
+}
 .address-container{
-    margin-top: 10%;
+    margin: 10px auto;
 }
 
 .icons{
@@ -412,7 +399,7 @@ footer{
         width: 150px;
     
     }
-    .contact-location{
+    /* .contact-location{
         width: 50%;
         
     }
@@ -424,7 +411,7 @@ footer{
     .contact > p{
         padding-top: 30px;
         font-size: 32px;
-    }
+    } */
 
 }
 
@@ -435,10 +422,7 @@ footer{
   }
 
 @media screen and (max-width: 600px){
-    .address > p{
-        word-wrap: break-word;
-        width: 100px;
-    }
+    
     .marvrix{
         font-size: 40px;
     }
