@@ -26,5 +26,5 @@
     image.src = this.src
   }
   setTimeout(function(){
-    bigImage.src = 'images/dinner.jpg'
+    bigImage.src = 'images/award.jpg'
   },50)
