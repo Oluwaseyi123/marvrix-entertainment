@@ -10,7 +10,7 @@
 body {
 margin: 0;
   padding: 0;
-  
+  font-family: 'Kumbh Sans', sans-serif;
 }
 
 .nav-bar {
@@ -198,5 +198,16 @@ footer{
 
 .nb{
   color: red;
-  font-size: 20px;
+  font-size: 18px;
+}
+.awards{
+  margin: 0 50px;
+}
+
+.awards p{
+  padding-top: 10px;
+}
+.awards span{
+  
+  line-height: 1.3em;
 }
