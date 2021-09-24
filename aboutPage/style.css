@@ -210,51 +210,58 @@ iframe{
 
 .upcoming-events > p{
     font-size: 36px;
-    text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
     font-weight: 500;
 }
 .founders, .vice-presidents, .other-positions, .publicists{
     display: flex;
-    margin: 0 auto;
+    margin: 15px auto;
     justify-content: center;
     width: 100%;
     flex-wrap: wrap;
     padding-top: 15px;
     
 }
-
-.founder p, .ceo p{
-    text-align: center;
+.president{
+  justify-content: center;
+  margin: 20px auto;
 }
+
+img{
+  display: block;
+  margin: 0 auto;
+}
+
 .head{
     padding-top: 10px;
     font-weight: 500;
 }
-.head, .text{
-    text-align: center;
-    margin: 0 auto;
+
+p{
+  text-align: center;
+  width: auto;
 }
-.members p, .publicists p, .vice-presidents p, .other-positions p{
-    text-align: center;
-    width: auto;
-}
+
 .vice-one, .vice-one img, .publicist, .publicist img, .ceo img{
     width: 150px;
+    
 }
 
 .vice-presidents img, .other-positions img, .publicists img, .founder img, .ceo img{
     border-radius: 50%;
+    width: 150px;
+    height: 150px;
+
 }
 
 .vice-one, .founder, .position, .publicist, .ceo{
     margin: 0px 10px;
 }
 
-.founder img, .ceo img{
-    width: 300px;
-    height: auto;
+.founder img, .ceo img, .president img{
+    width: 200px;
+    height: 200px;
 }
 
 .ceo, .ceo img{
@@ -271,11 +278,15 @@ iframe{
 .position, .position img{
     width: 150px;
 }
-.text{
+/* .text{
     text-align: left;
     padding-bottom: 30px;
-}
+} */
+img{
+  border-radius: 50%;
 
+  
+}
 
 footer{
     text-align: center;
