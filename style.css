@@ -224,8 +224,8 @@ nav ul li ul li a {
 }
 
 .event img{
-  width: 200px;
-  height: 150px;
+  width: 300px;
+  height: 170px;
   margin: 0 auto;
   display: block;    /* width: 100%;
     height: auto; */
@@ -257,20 +257,31 @@ nav ul li ul li a {
 .event button{
     cursor: pointer;
     display: block;
-    /* width: 100px;
-    height: 30px; */
-    background: #232220;
-    color: #ffffff;
+    background-image: radial-gradient(100% 100% at 100% 0, #000 0, #000 100%);
+    /* background: pink; */
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    color: #fff;
     border: none;
     align-items: center;
     text-align: center;
     margin: 10px auto 20px auto;
     z-index: 1;
     padding: 10px;
+    transition: box-shadow .15s,transform .15s;
     
 }
 .event button:focus{
   outline: none;
+  box-shadow: #ffff 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #fff 0 -3px 0 inset;
+}
+
+.event button:hover {
+  /* box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #fff 0 -3px 0 inset; */
+  transform: translateY(-2px);
+}
+.event button:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
 }
 .events{
     display: flex;
