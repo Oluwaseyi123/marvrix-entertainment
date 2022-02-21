@@ -14,7 +14,7 @@
 
 .nav-bar {
   height: 70px;
-  background: url(images/vidar-nordli-mathisen-Xb__KZBPzHQ-unsplash.jpg);
+  background: url(images/bg.jpeg);
   background-size: cover;
   height: calc(115vh - 80px);
 }
